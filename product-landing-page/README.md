@@ -40,12 +40,6 @@ This project demonstrates how to create a professional product landing page that
 
 ---
 
-## 🚀 How to Run
-Open the **`index.html`** file in your browser to view the landing page.  
-You can also host it on **GitHub Pages**, **CodePen**, or any web server for public viewing.
-
----
-
 ## 👀 Live Demo
 🔗 [View on CodePen](https://codepen.io/BARROA-vincent-angelo/pen/RNreLZR)
 
