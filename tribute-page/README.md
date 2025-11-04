@@ -35,12 +35,6 @@ This project demonstrates how to create a clean, informative tribute page that h
 
 ---
 
-## 🚀 How to Run
-Open the **`index.html`** file in your browser to view the tribute page.  
-You can also upload it to **GitHub Pages**, **CodePen**, or any static site host for online viewing.
-
----
-
 ## 👀 Live Demo
 🔗 [View on CodePen](https://codepen.io/BARROA-vincent-angelo/pen/qEbJPjW) 
 
