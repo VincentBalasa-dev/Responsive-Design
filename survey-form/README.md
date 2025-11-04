@@ -39,12 +39,6 @@ Users can fill out their personal information, select event preferences, and sub
 
 ---
 
-## 🚀 How to Run
-Open the **`index.html`** file in your browser to view and interact with the form.  
-You can also host it online (e.g., GitHub Pages, CodePen, or Netlify) for easy access.
-
----
-
 ## 👀 Live Demo
 🔗 [View on CodePen](https://codepen.io/BARROA-vincent-angelo/pen/bNEmoqr?editors=1000)
 
