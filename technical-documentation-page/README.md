@@ -36,12 +36,6 @@ This project demonstrates how to build a multi-section technical documentation p
 
 ---
 
-## 🚀 How to Run
-Open the **`index.html`** file in your browser to view the documentation page.  
-You can also upload it to **GitHub Pages**, **CodePen**, or any hosting platform for online access.
-
----
-
 ## 👀 Live Demo
 🔗 [View on CodePen](https://codepen.io/BARROA-vincent-angelo/pen/raxqGwo) 
 
