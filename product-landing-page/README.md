@@ -1,4 +1,4 @@
-# 📝 Product Landing Page – Noble Guitars
+# 📝 Product Landing Page
 
 A **modern, responsive landing page** designed for **Noble Guitars**, showcasing handcrafted premium guitars and their unique features.  
 This project was built on **freeCodeCamp** to demonstrate **HTML structure**, **responsive design**, and **form handling** for marketing-oriented product pages.
