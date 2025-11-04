@@ -41,13 +41,6 @@ This project demonstrates how to create a **personal portfolio website** that ef
 
 ---
 
-## 🚀 How to Run
-1. Download or clone this repository.  
-2. Open the `index.html` file in your web browser.  
-3. (Optional) Host on **GitHub Pages** or any static web host to share your portfolio publicly.
-
----
-
 ## 👀 Live Demo
 🔗 [View on CodePen](https://codepen.io/BARROA-vincent-angelo/pen/ogbaGoX) 
 
