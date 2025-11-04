@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div id="sideBar-wrapper" onclick="toggleSideBar()">
+      <nav id="sideBar" onclick="propagate(event)">   
+        <header>
+          <h2>Menu</h2> 
+          <a onclick="toggleSideBar()"><i class="fa-solid fa-arrow-right"></i></a>
+        </header>
+        <hr>
+        <a href="#welcome-section">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    
+    
+    <nav id="navbar">
+      
+      <div class="nav-container">
+        
+        <div class="logo">
+          <a id="barsMenu" onclick="toggleSideBar()"><i class="fa-solid fa-bars"></i></a>
+          <a href="#welcome-section">CentPortfolio</a>
+        </div>
+        <div class="nav-links">
+          <a href="#welcome-section">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <section id="welcome-section">
+      <div class="welcome-content">
+        <h1>Hello, I'm a Web Developer</h1>
+        <p>Building beautiful and functional websites</p>
+        <a href="#projects" class="cta-button">View My Work</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="section-container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>I'm a passionate web developer with expertise in HTML, CSS, JavaScript, and various modern frameworks. I love creating responsive, user-friendly websites and applications.</p>
+            <p>With a background in design and development, I bring a unique perspective to every project I work on.</p>
+          </div>
+          <div class="skills">
+            <h3>Skills</h3>
+            <div class="skill-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>TypeScript</span>
+              <span>React.js</span>
+              <span>Tailwind</span>
+              <span>Bootstrap</span>
+              <span>C</span>
+              <span>C++</span>
+              <span>C#</span>
+              <span>Java</span>
+              <span>Kotlin</span>
+              <span>Git</span>
+              <span>Responsive Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="section-container"> 
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+           
+          <div class="project-tile">
+            <img src="https://shots.codepen.io/BARROA-vincent-angelo/pen/YPwvLxw-1280.jpg" alt="Project 1">
+            <div class="project-info">
+              <h3>25 + 5 Clock</h3>
+              <p>This project demonstrates how to create a fully functional timer with dynamic user-adjustable session and break lengths, visual countdown, and audio alerts. </p>
+              <div class="project-links">
+                <a href="https://codepen.io/BARROA-vincent-angelo/pen/YPwvLxw" 
+                   target="_blank"  class="project-link"><i class="fas fa-eye"></i> View Live</a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+              </div>
+            </div>
+          </div> 
+          
+          <div class="project-tile">
+            <img src="https://shots.codepen.io/BARROA-vincent-angelo/pen/EaPQPOm-1280.jpg" alt="Project 2">
+            <div class="project-info">
+              <h3>Calculator</h3>
+              <p>This project demonstrates building a functional calculator using React functional components. </p>
+              <div class="project-links">
+                <a href="https://codepen.io/BARROA-vincent-angelo/pen/EaPQPOm" 
+                   target="_blank"  class="project-link"><i class="fas fa-eye"></i> View Live</a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-tile">
+            <img src="https://shots.codepen.io/BARROA-vincent-angelo/pen/dPGVOZY-1280.jpg" alt="Project 3">
+            <div class="project-info">
+              <h3>Drum Machine</h3>
+              <p>A React.js drum machine that lets users play drum sounds by either clicking on pads or pressing corresponding keyboard keys.</p>
+              <div class="project-links">
+                <a href="https://codepen.io/BARROA-vincent-angelo/pen/dPGVOZY" 
+                   target="_blank"  class="project-link"><i class="fas fa-eye"></i> View Live</a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+              </div>
+            </div>
+          </div>
+         
+          <div class="project-tile">
+            <img src="https://shots.codepen.io/BARROA-vincent-angelo/pen/myegepz-1280.jpg" alt="Project 4">
+            <div class="project-info">
+              <h3>Markdown Previewer</h3>
+              <p>This project focuses on practicing React hooks, real-time rendering, and Markdown parsing using the marked library. </p>
+              <div class="project-links">
+                <a href="https://codepen.io/BARROA-vincent-angelo/pen/myegepz" 
+                   target="_blank"  class="project-link"><i class="fas fa-eye"></i> View Live</a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-tile">
+            <img src="https://shots.codepen.io/BARROA-vincent-angelo/pen/azvPamr-1280.jpg" alt="Project 5">
+            <div class="project-info">
+              <h3>Random Quote Generator</h3>
+              <p>The goal of this project is to practice React component structure, state management, and API fetching — while building something interactive and visually engaging. </p>
+              <div class="project-links">
+                <a href="https://codepen.io/BARROA-vincent-angelo/pen/azvPamr" 
+                   target="_blank"  class="project-link"><i class="fas fa-eye"></i> View Live</a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-tile">
+            <img src="https://shots.codepen.io/BARROA-vincent-angelo/pen/RNreLZR-1280.jpg" alt="Project 6">
+            <div class="project-info">
+              <h3>Product Landing Page</h3>
+              <p>Responsive product landing page built with HTML and CSS, highlighting Noble Guitars’ premium craftsmanship and modern aesthetic. </p>
+              <div class="project-links">
+                <a href="https://codepen.io/BARROA-vincent-angelo/pen/RNreLZR" 
+                   target="_blank"  class="project-link"><i class="fas fa-eye"></i> View Live</a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="section-container">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+          <p>Interested in working together? Feel free to reach out!</p>
+          <div class="social-links">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vincentbalasa.dev@gmail.com&su=Hello&body=Hi%20Vincent," 
+               target="_blank"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://www.linkedin.com/in/vincent-angelo-barroa-a26a02375" 
+               target="_blank" 
+               rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a id="profile-link" href="https://github.com/VincentBalasa-dev" 
+               target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://codepen.io/BARROA-vincent-angelo" 
+               target="_blank"><i class="fab fa-codepen"></i> CodePen</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Vincent Balasa Dev Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
+  
+  <scipt src="app.js"></script>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>

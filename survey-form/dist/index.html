@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Event Registration Form</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1 id="title">Event Registration Form</h1>
+      <p id="description">Sign up now to secure your spot at our exclusive event!</p>
+    </header>
+    
+    <form id="survey-form">
+      <div class="form-group">
+        <label for="name" id="name-label">Name</label>
+        <input id="name" type="text" placeholder="Enter your full name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email" id="email-label">Email Address</label>
+        <input id="email" type="email" placeholder="Enter a valid email address" required>
+      </div>
+
+      <div class="form-group">
+        <label for="number" id="number-label">Age</label>
+        <input id="number" type="number" placeholder="Enter your age" min="18" max="100" required>
+      </div>
+
+      <div class="form-group">
+        <label for="dropdown">Event Type</label>
+        <select id="dropdown" required>
+          <option disabled selected value="">Select an option</option>
+          <option value="Workshop">Workshop</option>
+          <option value="Networking">Networking</option>
+          <option value="Conference">Conference</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <legend>Preferred Session Time</legend>
+        <div class="radio-group">
+          <label>
+            <input name="session-type" type="radio" value="Morning" checked required>
+            Morning
+          </label>
+          <label>
+            <input name="session-type" type="radio" value="Afternoon" required>
+            Afternoon
+          </label>
+          <label>
+            <input name="session-type" type="radio" value="Evening" required>
+            Evening
+          </label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <legend>Topics of Interest</legend>
+        <div class="checkbox-group">
+          <label>
+            <input name="interest-type" type="checkbox" value="Technology">
+            Technology
+          </label>
+          <label>
+            <input name="interest-type" type="checkbox" value="Business">
+            Business
+          </label>
+          <label>
+            <input name="interest-type" type="checkbox" value="Health & Wellness">
+            Health & Wellness
+          </label>
+          <label>
+            <input name="interest-type" type="checkbox" value="Education">
+            Education
+          </label>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label for="comment">Additional Comments</label>
+        <textarea id="comment" name="comment" placeholder="Share any special requirements or questions..."></textarea>
+      </div>
+
+      <input id="submit" type="submit" value="Register Now">
+    </form>
+  </div>
+</body>
+</html>
+    
+  </body>
+  
+</html>

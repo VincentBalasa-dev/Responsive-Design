@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>Documentation Topics</header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#Variables">Variables</a></li>
+      <li><a class="nav-link" href="#Functions">Functions</a></li>
+      <li><a class="nav-link" href="#Arrays">Arrays</a></li>
+      <li><a class="nav-link" href="#Objects">Objects</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section id="Introduction" class="main-section">
+      <header>Introduction</header>
+      <p>JavaScript is a high-level, interpreted programming language that is one of the core technologies of the World Wide Web. It enables interactive web pages and is an essential part of web applications, alongside HTML and CSS.</p>
+      <p>JavaScript was initially created to make web pages alive and interactive. Programs written in JavaScript are called scripts, and they can be embedded directly into HTML pages and run automatically as the page loads.</p>
+      <code>console.log("Hello, JavaScript!");</code>
+      <ul>
+        <li>JavaScript can change HTML content and attribute values dynamically</li>
+        <li>JavaScript can change CSS styles and create animations</li>
+      </ul>
+    </section>
+    <section id="Variables" class="main-section">
+      <header>Variables</header>
+      <p>Variables in JavaScript are containers for storing data values. You can declare variables using var, let, or const keywords. The let and const keywords were introduced in ES6 and are now the preferred way to declare variables.</p>
+      <p>The const keyword creates a read-only reference to a value, which means the variable identifier cannot be reassigned. However, if the value is an object or array, its properties or elements can still be modified.</p>
+      <code>let userName = "John"; const MAX_SIZE = 100;</code>
+      <ul>
+        <li>Use let for variables that will be reassigned later in your code</li>
+        <li>Use const for variables that should never be reassigned, making your code more predictable</li>
+      </ul>
+    </section>
+    <section id="Functions" class="main-section">
+      <header>Functions</header>
+      <p>Functions are reusable blocks of code designed to perform a particular task. A JavaScript function is executed when something invokes or calls it. Functions can take parameters as input and return values as output.</p>
+      <p>ES6 introduced arrow functions, which provide a shorter syntax for writing function expressions. Arrow functions are especially useful for inline functions and callbacks, and they have different behavior with the 'this' keyword.</p>
+      <code>function greet(name) { return "Hello, " + name; }</code>
+      <ul>
+        <li>Functions help organize code into logical, reusable components</li>
+        <li>Arrow functions provide cleaner syntax: const greet = (name) => "Hello, " + name;</li>
+      </ul>
+    </section>
+    <section id="Header4" class="main-section">
+      <header>Header4</header>
+      <p>Arrays are special variables that can hold more than one value at a time. JavaScript arrays are used to store multiple values in a single variable, and they come with many built-in methods for manipulation like push, pop, map, and filter.</p>
+      <p>Array methods like map, filter, and reduce are powerful tools for transforming and processing data. These methods create new arrays rather than modifying the original, following functional programming principles.</p>
+      <code>let fruits = ["apple", "banana", "orange"];</code>
+      <ul>
+        <li>Arrays are zero-indexed, meaning the first element is at position 0</li>
+        <li>Use array methods to avoid manual loops and write more expressive code</li>
+      </ul>
+    </section>
+    <section id="Header5" class="main-section">
+      <header>Header5</header>
+      <p>Objects are collections of key-value pairs and are one of the fundamental data structures in JavaScript. They allow you to store related data and functionality together, making your code more organized and easier to understand.</p>
+      <p>You can access object properties using dot notation or bracket notation. Objects can contain any data type as values, including other objects, arrays, and functions (which are called methods when inside an object).</p>
+      <code>let person = { name: "Alice", age: 30, greet: function() { console.log("Hi!"); } };</code>
+      <ul>
+        <li>Objects use curly braces {} and consist of property-value pairs separated by colons</li>
+        <li>Objects are mutable, meaning their properties can be changed after creation</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
